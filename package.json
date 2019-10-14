@@ -1,0 +1,13 @@
+{
+  "name": "audio-id3-writer",
+  "version": "1.0.0",
+  "description": "parse audio file name and write to id3 tag",
+  "private": false,
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "browser-id3-writer": "^4.2.0",
+    "chalk": "^2.4.2"
+  }
+}
